@@ -12,11 +12,11 @@ from aiogram.fsm.state import State, StatesGroup
 from aiogram.utils.keyboard import InlineKeyboardBuilder
 
 logging.basicConfig(level=logging.INFO)
-TOKEN = "8842858989:AAH_aAUtcUpaoh-OU52eTw5Yvjf2qaZBQ2o"
-ADMIN_ID = 8887644613
+TOKEN = "8875302311:AAGknlL2qgmiTdqaOtXijYAhs-74ODPWJgw"
+ADMIN_ID = 8075312868
 
 SUPPORT_USERNAME = "@Derzywork"
-REQUIRED_CHANNEL = "@fortunapaytgk"
+REQUIRED_CHANNEL = "@fiksikpay"
 REVIEWS_GROUP_ID = -1003589211301
 REVIEWS_GROUP_USERNAME = "@otziviobn"
 LOG_CHANNEL_ID = -1004443604049
