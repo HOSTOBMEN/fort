@@ -1,4 +1,4 @@
-import sqlite3
+    import sqlite3
 import logging
 import asyncio
 import random
@@ -12,11 +12,11 @@ from aiogram.fsm.state import State, StatesGroup
 from aiogram.utils.keyboard import InlineKeyboardBuilder
 
 logging.basicConfig(level=logging.INFO)
-TOKEN = "8875302311:AAGknlL2qgmiTdqaOtXijYAhs-74ODPWJgw"
+TOKEN = "8842858989:AAH_aAUtcUpaoh-OU52eTw5Yvjf2qaZBQ2o"
 ADMIN_ID = 8887644613
 
 SUPPORT_USERNAME = "@Derzywork"
-REQUIRED_CHANNEL = "@fiksikpay"
+REQUIRED_CHANNEL = "@fortunapaytgk"
 REVIEWS_GROUP_ID = -1003589211301
 REVIEWS_GROUP_USERNAME = "@otziviobn"
 LOG_CHANNEL_ID = -1004443604049
@@ -824,9 +824,9 @@ async def finalize_payout(bot_instance: Bot, client_id: int, sent_rub: float, or
     builder.adjust(2)
 
     text = (
-        f"💸 **Выплата по заявке #{order_id} отправлена!**\n\n"
-        f"Сумма перевода: `{sent_rub} ₽`\n"
-        f"{f'{extra_text}\n' if extra_text else ''}\n"
+        f"🟢 **Выплата по заявке #{order_id} отправлена!**\n\n"
+        f"Сумма перевода: `{sent_rub}` ₽\n"
+        f"{extra_block}\n"
         f"Пожалуйста, проверьте баланс карты и подтвердите получение:"
     )
 
