@@ -1,4 +1,4 @@
-    import sqlite3
+import sqlite3
 import logging
 import asyncio
 import random
@@ -823,6 +823,7 @@ async def finalize_payout(bot_instance: Bot, client_id: int, sent_rub: float, or
     builder.button(text="❌ Деньги не пришли", callback_data=f"confirm_no_{order_id}")
     builder.adjust(2)
 
+    extra_block = f"{extra_text}\n" if extra_text else ""
     text = (
         f"🟢 **Выплата по заявке #{order_id} отправлена!**\n\n"
         f"Сумма перевода: `{sent_rub}` ₽\n"
